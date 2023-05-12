@@ -1,0 +1,122 @@
+/* 
+Write your CSS here 
+Gap Colour: #000
+White: #F0F1EC
+Red: #E72F24
+Black: #232629
+Blue: #004592
+Yellow: #F9D01E
+*/
+
+body{
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 0.5fr repeat(2, 1fr) 0.5fr repeat(2, 1fr);
+    gap: 10px;
+}
+
+.item {
+    background-color: rgb(67, 55, 55);
+}
+
+.yellow1 {
+    grid-area: 1 / 1 / 1 / 1;
+    background-color: #F9D01E;
+    height: 100px;
+}
+
+.white1 {
+    grid-row: 1 / 1;
+    grid-column: 2 / 5;
+    background-color: white;
+}
+
+.red1{
+    grid-row: 1 / 1;
+    background-color: #E72F24;
+}
+
+.white2 {
+    background-color: white;
+}
+
+.white3 {
+    grid-row: 1 / 1;
+    grid-column: 7 / 9;
+    background-color: white;
+}
+
+.yellow2{
+    grid-area: 1 / 9 / 3 / 10;
+    background-color: #F9D01E;
+}
+
+.yellow3 {
+    grid-area: 2 / 6 / 3 / 7;
+    background-color: #F9D01E;
+    height: 50px;
+}
+
+.white4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / span 4;
+    background-color: white;
+
+}
+
+.red2 {
+    grid-area: 2 / 2/ 6 / 5;
+    background-color: #E72F24;
+}
+
+.white5 {
+    grid-column: 5 / 6;
+    grid-row: 2 / span 4;
+    background-color: white;
+}
+
+.yellow4 {
+    grid-area: 3 / 6 / 7 / 7;
+    background-color: #F9D01E;
+}
+
+.blue1 {
+    background-color: #004592;
+    grid-column-end: span 2;
+}
+
+.white6 {
+    grid-area: 3 / 7 / 7 / 9;
+    background-color: white;
+}
+
+.white7 {
+    grid-row: span 4;
+    background-color: white;
+}
+
+.blue2 {
+    background-color:#004592;
+}
+
+.white8 {
+    grid-area: 6 / 2/ 8 / 6;
+    background-color: white;
+}
+
+.blue3 {
+    background-color: #004592;
+}
+
+.white9 {
+    background-color: white;
+}
+
+.red3 {
+    grid-column: 7 / 10;
+    background-color: #E72F24;
+}
