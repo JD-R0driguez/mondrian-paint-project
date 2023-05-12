@@ -28,7 +28,7 @@ The Mondrian Project is a web page that displays a design inspired by the artwor
 
 ## Usage
 
-Feel free to explore the project and interact with the Mondrian-inspired design. You can also customize the colors or grid layout in the CSS file (`style.css`) to create your own variations. To view the live code, click [here](https://jd-r0driguez.github.io/mondrian-project/).
+Feel free to explore the project and interact with the Mondrian-inspired design. You can also customize the colors or grid layout in the CSS file (`style.css`) to create your own variations. To view the live code, click [here](https://jd-r0driguez.github.io/mondrian-paint-project/).
 
 
 ## Credits
